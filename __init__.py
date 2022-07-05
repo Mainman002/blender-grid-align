@@ -1,6 +1,6 @@
 import bpy, sys, os
 
-from . Grid_Align import *
+from . TMG_Grid_Align import *
 
 # from bpy_extras.io_utils import ImportHelper
 # from bpy.types import Operator, Header
@@ -15,11 +15,11 @@ from . Grid_Align import *
 
 
 bl_info = {
-    "name": "Grid_Align",
+    "name": "TMG_Grid_Align",
     "author": "Johnathan Mueller",
     "descrtion": "This script allows you to align any object along an axis between the centers of two other objects.",
     "blender": (2, 80, 0),
-    "version": (0, 1, 1),
+    "version": (0, 1, 0),
     "location": "View3D (ObjectMode) > Sidebar > Edit Tab",
     "warning": "",
     "category": "Object"
